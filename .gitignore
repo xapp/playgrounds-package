@@ -1,5 +1,4 @@
-
+.DS_Store
 .swiftpm/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.DS_Store
