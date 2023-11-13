@@ -23,7 +23,7 @@ public class XLink {
             
         UIApplication.shared.open(url,
                                   options: options) { (completed: Bool) in
-            complition(completed)
+            completion(completed)
         }
     }
     #endif
