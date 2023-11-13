@@ -19,7 +19,7 @@ public class XLink {
     @available(iOS 10.0, *)
     public static func openURL(url: URL,
                                options: [UIApplication.OpenExternalURLOptionsKey: Any],
-                               complition: @escaping (_ completed: Bool) -> Void) {
+                               completion: @escaping (_ completed: Bool) -> Void) {
             
         UIApplication.shared.open(url,
                                   options: options) { (completed: Bool) in
